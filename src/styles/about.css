@@ -1,0 +1,29 @@
+.about-area {
+  background: #fff;
+}
+
+.about-details {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-details .subheading {
+  color: #666;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-details h2 {
+  font-size: 2.2rem;
+  line-height: 1.0;
+}
+
+.about-details .btn {
+  margin-top: 0px;
+}
+
+.btn span {
+    padding: 0 0 0 0;
+}

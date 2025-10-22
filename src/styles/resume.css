@@ -1,0 +1,13 @@
+.resume-area {
+  background: #fff;
+}
+
+.resume-area h4 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.resume-area p {
+  line-height: 1.7;
+  color: #555;
+}

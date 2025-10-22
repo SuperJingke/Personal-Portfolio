@@ -1,0 +1,50 @@
+.contact-area {
+  background: #f7f7f7;
+}
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-area form {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-area .form-group {
+  margin: auto; 
+
+}
+
+
+.contact-area .form-control {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+
+.contact-area .form-control:focus {
+  border-color: #111;
+  outline: none;
+}
+
+.contact-area .btn {
+  background: #111;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  
+}
+
+.contact-area .btn:hover {
+  background: #333;
+}
