@@ -21,16 +21,16 @@ const Works = () => {
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/12.jpg" alt="Lunch" />
-            <h4>Photography</h4>
+            <h4>Food in Québec</h4>
           </div>
           
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="/static/picture/1.jpg" alt="Wildlife" />
+            <img className="img-fluid" src="/static/picture/1.jpg" alt="Wildlife in Guelph" />
             <h4>Wildlife</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/4.jpg" alt="Toronto" />
-            <h4>Photography</h4>
+            <h4>Nathan Square</h4>
           </div>
          
           <div className="col-lg-4 grid-item">
@@ -47,11 +47,11 @@ const Works = () => {
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/9.jpg" alt="River-side" />
-            <h4>Riverside in Xiangyang</h4>
+            <h4>Along the river</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/10.jpg" alt="dad's bike" />
-            <h4>Biking in Hometown</h4>
+            <h4>A Ride Back Home</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/11.jpg" alt="Gondola Lift" />
@@ -59,7 +59,7 @@ const Works = () => {
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/5.jpg" alt="Cherry Blossom" />
-            <h4>Under the Cherry Blossom</h4>
+            <h4>Whispers in Bloom</h4>
           </div>
           
         </div>

@@ -342,7 +342,8 @@ section {
 
 .header-area .main-nav .nav {
     float: right;
-    margin-top: 20px;
+    margin-top: 25px;
+    align-items: center;
     position: relative;
     z-index: 999;
     -webkit-transition: all .1s ease 0s;
@@ -640,7 +641,7 @@ section {
 
 .about-area .about-card {
     perspective: 800px;
-    height: 492px
+    height: 492px;
 }
 
 .about-area .about-card .card-inner {

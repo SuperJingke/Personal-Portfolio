@@ -65,3 +65,16 @@
 .hero-area .hero-content .social-icons a {
     text-align: center;
 }
+
+@media screen and (max-width: 514px) {
+  .animated-info {
+  display: inline-block;
+  overflow: show;
+  position: relative;
+  height: 1.7em;
+  vertical-align: bottom;
+}
+.about-area .about-card {
+  min-height: 500px;
+}
+}

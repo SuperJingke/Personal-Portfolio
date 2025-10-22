@@ -15,9 +15,9 @@ const Hero = () => (
           <div className="subheading text-uppercase">
             Hi Nice to meet you <span>:)</span>
           </div>
-          <h1>I'm Jingke Liang!</h1>
+          <h1>I'm Jingke</h1>
           <div>
-            Passionate{"  "}
+            A Passionate{" "}
             <span className="animated-info">
               <em className="animated-item">Developer.</em>
               <em className="animated-item">Analyst.</em>

@@ -19,8 +19,8 @@ const About = () => (
                 <div className="content">
                   <div className="main">
                     <h4 className="name">Jingke Liang</h4>
-                    <span className="profession">Web Developer</span>
-                    <div><i className="fa fa-map-marker fa-fw"></i> Guelph, Canada</div>
+                    <span className="profession">Full-stack Developer, Network Specialist</span>
+                    <div><i className="fa fa-map-marker fa-fw"></i> Guelph, ON, Canada</div>
                     <div><i className="fa fa-university fa-fw"></i> Alum @ University of Toronto</div>
                     <div><i className="fa fa-institution fa-fw"></i> Fanshawe, University of Guelph</div>
                     <div><i className="fa fa-envelope-o fa-fw"></i> jingkeliang88@gmail.com</div>
@@ -42,15 +42,13 @@ const About = () => (
                 </div>
                 <div className="content">
                   <div className="main">
-                    <h4 className="text-center">Experience</h4>
-                    <span>
-                      Since 2025, I’ve been rebuilding my portfolio with new designs and technologies.
-                    </span>
                     <h4 className="text-center mt-3">Profile</h4>
                     <span>
-                      Hello! I’m Jingke Liang, a web developer from Guelph, Canada. I enjoy creating
-                      engaging web experiences and have experience in Python, Java, HTML, and
-                      JavaScript.
+                      Hello! I’m Jingke. Nice to connect with you here!
+                    </span>
+                    <h4 className="text-center">Experience</h4>
+                    <span>
+                    Rebuilding my portfolio since 2020 with modern designs and smarter architecture for engaging, accessible, and AI-visible web experiences.
                     </span>
                   </div>
                 </div>
