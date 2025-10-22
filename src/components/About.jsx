@@ -56,15 +56,18 @@ const About = () => (
                 </div>
                 <div className="footer">
                   <div className="social-links text-center">
-                    <button className="social-btn" aria-label="Facebook">
+                    <a href="https://www.facebook.com/j.k.isa.liang/"><button  className="social-btn" aria-label="Facebook">
                       <i className="fa fa-facebook fa-fw"></i>
-                    </button>
-                    <button className="social-btn" aria-label="Google">
-                      <i className="fa fa-google-plus fa-fw"></i>
-                    </button>
-                    <button className="social-btn" aria-label="Twitter">
-                      <i className="fa fa-twitter fa-fw"></i>
-                    </button>
+                    </button></a>
+                    
+                    <a  href="https://www.youtube.com/@gillianliang6996"><button  className="social-btn" aria-label="YouTube">
+                      <i className="fa fa-youtube fa-fw"></i>
+                    </button></a>
+                    
+                    <a  href="mailto:jingkeliang88@gmail.com"><button  className="social-btn" aria-label="Discord">
+                      <i className="fa fa-envelope fa-fw"></i>
+                    </button></a>
+                    
                   </div>
                 </div>
               </div>

@@ -16,7 +16,7 @@ const Works = () => {
             <h4>Boat Trip</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="$/static/picture/2.jpg" alt="Snow Adventure" />
+            <img className="img-fluid" src="/static/picture/2.jpg" alt="Snow Adventure" />
             <h4>Snow Adventure</h4>
           </div>
           <div className="col-lg-4 grid-item">

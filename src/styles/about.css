@@ -27,3 +27,7 @@
 .btn span {
     padding: 0 0 0 0;
 }
+.social-btn {
+  border-radius: 50%;
+  margin: 0 5px;
+}
