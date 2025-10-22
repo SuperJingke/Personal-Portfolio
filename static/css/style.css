@@ -640,7 +640,7 @@ section {
 
 .about-area .about-card {
     perspective: 800px;
-    height: 492px
+    height: 492px;
 }
 
 .about-area .about-card .card-inner {

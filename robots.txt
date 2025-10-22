@@ -1,3 +1,37 @@
 # https://www.robotstxt.org/robotstxt.html
+# Allow all major bots to crawl and index your website
+
+# General rule for all bots
 User-agent: *
+Disallow:
+
+# GPTBot (OpenAI)
+User-agent: GPTBot
+Disallow:
+
+# Googlebot (Search)
+User-agent: Googlebot
+Disallow:
+
+# Googlebot-Image (for image search)
+User-agent: Googlebot-Image
+Disallow:
+
+# Bingbot (Microsoft)
+User-agent: Bingbot
+Disallow:
+
+# DuckDuckBot (DuckDuckGo)
+User-agent: DuckDuckBot
+Disallow:
+
+# ClaudeBot (Anthropic)
+User-agent: ClaudeBot
+Disallow:
+
+# Common AI data crawlers (for transparency)
+User-agent: FacebookBot
+Disallow:
+
+User-agent: Applebot
 Disallow:
