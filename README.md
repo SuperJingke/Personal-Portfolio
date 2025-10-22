@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Personal Portfolio React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there — I’m so glad you stopped by!  
+This space is a mix of what I build, learn, and dream up.  
+I’m passionate about turning ideas into experiences that connect people through design and technology.
 
-## Available Scripts
+## Personalized Domain
+
+Click the url: [jingkeliang.site](https://jingkeliang.site). 
+
+## Available Scripts to run the app locally
 
 In the project directory, you can run:
 
