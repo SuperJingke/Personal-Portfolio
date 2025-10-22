@@ -90,7 +90,7 @@ const Resume = () => (
               <div className="resume-item">
                 <div className="date">2023 - Present</div>
                 <h5>University of Guelph</h5>
-                <h6>Computer Science</h6>
+                <h6>Computing in Computer Science</h6>
                 <div className="company">
                   <i className="fa fa-map-marker fa-fw"></i> Guelph, ON
                 </div>

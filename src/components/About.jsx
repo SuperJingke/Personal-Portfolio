@@ -77,17 +77,19 @@ const About = () => (
           <div className="about-details">
             <span className="subheading">About Me</span>
             <h2 className="mb-4">
-              A Full-stack Developer<br />& Aspiring Network Engineer<br />Based in Canada
+              A Full-stack Developer<br /> & Aspiring Network Engineer<br /> Based in Canada
             </h2>
 
             <div className="skill-ara">
               {[
-                ["Python", 90],
-                ["React", 95],
-                ["Data Mining", 85],
+                ["Python", 98],
+                ["React", 96],
+                ["Java", 95],
+                ["Data Analysis", 90],
+                ["LLM Training", 85],
                 ["Website Migration & SEO+GEO", 95],
                 ["UI & UX", 90],
-                ["Business Planning", 85],
+                ["Business Planning", 88],
                 ["Network Monitoring & Troubleshooting", 80],
               ].map(([skill, percent]) => (
                 <div className="single-skill" key={skill}>

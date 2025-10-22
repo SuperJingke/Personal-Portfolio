@@ -17,11 +17,11 @@ const Hero = () => (
           </div>
           <h1>I'm Jingke Liang!</h1>
           <div>
-            Passionate{" "}
+            Passionate{"  "}
             <span className="animated-info">
               <em className="animated-item">Developer.</em>
-              <em className="animated-item">Designer.</em>
-              <em className="animated-item">Photographer.</em>
+              <em className="animated-item">Analyst.</em>
+              <em className="animated-item">Engineer</em>      
             </span>
           </div>
 

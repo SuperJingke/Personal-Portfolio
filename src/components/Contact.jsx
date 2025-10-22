@@ -16,7 +16,7 @@ const Contact = () => {
     const subject = `Message from ${decodeURIComponent(name)}`;
     const body = `Greetings Jingke,%0A%0Ahope this message finds you well.%0A%0A I am ${decodeURIComponent(
       name
-    )}, reaching out via your portfolio website.%0A%0A${decodeURIComponent(message)}.%0A%0A$ from ${decodeURIComponent(email)}.%0A%0A$Thank you for your time and consideration.%0A%0A Best regards,%0A${decodeURIComponent(name)}`;
+    )}, reaching out via your portfolio website.%0A%0A${decodeURIComponent(message)}.%0A%0A%0A%0A%0AThank you for your time and consideration.%0A%0A%0ABest regards,%0A${decodeURIComponent(name)}%0A${decodeURIComponent(email)}`;
 
     window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`;
     form.reset(); // optional: clear form after submission

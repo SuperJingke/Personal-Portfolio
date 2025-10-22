@@ -1,11 +1,12 @@
 import React from "react";
+import CountUp from "react-countup";
 import "../styles/services.css";
 
 const counters = [
   { icon: "icon-briefcase", number: 165, text: "work completed" },
   { icon: "icon-cup", number: 8, text: "new projects" },
-  { icon: "icon-heart", number: "3+ years", text: "Industry Experience" },
-  { icon: "icon-trophy", number: "150+", text: "Volunteering" },
+  { icon: "icon-heart", number: 3, text: "+ years of Industry Experience" },
+  { icon: "icon-trophy", number: 150, text: "Volunteering (hrs)" },
 ];
 
 const Services = () => (
@@ -19,7 +20,9 @@ const Services = () => (
                 <i className={icon}></i>
               </div>
               <div>
-                <h2><span className="counter">{number}</span></h2>
+                <h2>
+                  <CountUp end={number} duration={15} />
+                </h2>
                 <p className="text-capitalize">{text}</p>
               </div>
             </div>
