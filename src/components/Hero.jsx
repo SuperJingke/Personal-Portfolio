@@ -8,7 +8,7 @@ const Hero = () => (
       <div className="row align-items-center justify-content-between">
         <div className="col-lg-5 d-none d-lg-block">
           <div className="hero-img d-flex align-items-center justify-content-center">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/hero-img.jpg" alt="Jingke" />
+            <img className="img-fluid" src="/static/picture/hero-img.jpg" alt="Jingke" />
           </div>
         </div>
         <div className="hero-content col-lg-7">

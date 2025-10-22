@@ -12,24 +12,24 @@ const Works = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/3.jpg" alt="Boat Trip" />
+            <img className="img-fluid" src="/static/picture/3.jpg" alt="Boat Trip" />
             <h4>Boat Trip</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/2.jpg" alt="Snow Adventure" />
+            <img className="img-fluid" src="$/static/picture/2.jpg" alt="Snow Adventure" />
             <h4>Snow Adventure</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/12.jpg" alt="Lunch" />
+            <img className="img-fluid" src="/static/picture/12.jpg" alt="Lunch" />
             <h4>Photography</h4>
           </div>
           
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/1.jpg" alt="Wildlife" />
+            <img className="img-fluid" src="/static/picture/1.jpg" alt="Wildlife" />
             <h4>Wildlife</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/4.jpg" alt="Toronto" />
+            <img className="img-fluid" src="/static/picture/4.jpg" alt="Toronto" />
             <h4>Photography</h4>
           </div>
          
@@ -38,27 +38,27 @@ const Works = () => {
             <h4>Music Band</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/7.jpg" alt="Bike" />
+            <img className="img-fluid" src="/static/picture/7.jpg" alt="Bike" />
             <h4>Biking</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/8.jpg" alt="Firework" />
+            <img className="img-fluid" src="/static/picture/8.jpg" alt="Firework" />
             <h4>Firework in Xiangyang</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/9.jpg" alt="River-side" />
+            <img className="img-fluid" src="/static/picture/9.jpg" alt="River-side" />
             <h4>Riverside in Xiangyang</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/10.jpg" alt="dad's bike" />
+            <img className="img-fluid" src="/static/picture/10.jpg" alt="dad's bike" />
             <h4>Biking in Hometown</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/11.jpg" alt="Gondola Lift" />
+            <img className="img-fluid" src="/static/picture/11.jpg" alt="Gondola Lift" />
             <h4>Gondola Ride</h4>
           </div>
           <div className="col-lg-4 grid-item">
-            <img className="img-fluid" src="${process.env.PUBLIC_URL}/static/picture/5.jpg" alt="Cherry Blossom" />
+            <img className="img-fluid" src="/static/picture/5.jpg" alt="Cherry Blossom" />
             <h4>Under the Cherry Blossom</h4>
           </div>
           

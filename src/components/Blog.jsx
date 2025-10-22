@@ -54,7 +54,7 @@ const Blog = () => {
             <div key={i} className="col-lg-4 col-md-6 mb-4 mb-lg-0">
               <div className="single-blog">
                 <div className="blog-img">
-                  <img className="img-fluid" src={`${process.env.PUBLIC_URL}/static/picture/${p.img}`} alt={p.title} />
+                  <img className="img-fluid" src={`/static/picture/${p.img}`} alt={p.title} />
                 </div>
                 <div className="blog-details">
                   <div className="blog-info">

@@ -11,7 +11,7 @@ const About = () => (
               {/* Card Front */}
               <div className="front">
                 <div className="cover">
-                  <img src="${process.env.PUBLIC_URL}/static/picture/cover.png" alt="Cover" />
+                  <img src="/static/picture/cover.png" alt="Cover" />
                 </div>
                 <div className="user">
                   <img src="/static/picture/person.jpg" alt="Jingke" />
