@@ -23,7 +23,7 @@ const About = () => (
                     <div><i className="fa fa-map-marker fa-fw"></i> Guelph, ON, Canada</div>
                     <div><i className="fa fa-university fa-fw"></i> Alum @ University of Toronto</div>
                     <div><i className="fa fa-institution fa-fw"></i> Fanshawe, University of Guelph</div>
-                    <div><i className="fa fa-envelope-o fa-fw"></i> jingkeliang88@gmail.com</div>
+                    
                   </div>
                   <div className="footer">
                     <div className="rating">
