@@ -3,10 +3,10 @@ import CountUp from "react-countup";
 import "../styles/services.css";
 
 const counters = [
-  { icon: "icon-briefcase", number: 165, text: "work completed" },
-  { icon: "icon-cup", number: 8, text: "new projects" },
-  { icon: "icon-heart", number: 3, text: "+ years of Industry Experience" },
-  { icon: "icon-trophy", number: 150, text: "Volunteering (hrs)" },
+  { icon: "icon-rocket", number: 165, text: "work completed" },
+  { icon: "icon-briefcase", number: 8, text: "new projects" },
+  { icon: "icon-trophy", number: 5, text: "+ years experience" },
+  { icon: "icon-heart", number: 150, text: "Volunteering (hrs)" },
 ];
 
 const Services = () => (

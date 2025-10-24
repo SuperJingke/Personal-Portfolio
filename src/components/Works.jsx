@@ -13,7 +13,7 @@ const Works = () => {
         <div className="row">
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/3.jpg" alt="Boat Trip" />
-            <h4>Boat Trip</h4>
+            <h4>The Boat Trip</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/2.jpg" alt="Snow Adventure" />
@@ -21,7 +21,7 @@ const Works = () => {
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/12.jpg" alt="Lunch" />
-            <h4>Food in Québec</h4>
+            <h4>A Taste of Quebec</h4>
           </div>
           
           <div className="col-lg-4 grid-item">
@@ -35,11 +35,11 @@ const Works = () => {
          
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/6.jpg" alt="Folk Music Band - flute" />
-            <h4>Music Band</h4>
+            <h4>Rhythms of the Stage</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/7.jpg" alt="Bike" />
-            <h4>Biking</h4>
+            <h4>After the Ride</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/8.jpg" alt="Firework" />
@@ -47,15 +47,15 @@ const Works = () => {
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/9.jpg" alt="River-side" />
-            <h4>Along the river</h4>
+            <h4>Walk Along the river</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/10.jpg" alt="dad's bike" />
-            <h4>A Ride Back Home</h4>
+            <h4>Biking through Xiangyang</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/11.jpg" alt="Gondola Lift" />
-            <h4>Gondola Ride</h4>
+            <h4>A Gondola Ride</h4>
           </div>
           <div className="col-lg-4 grid-item">
             <img className="img-fluid" src="/static/picture/5.jpg" alt="Cherry Blossom" />

@@ -1,16 +1,23 @@
 import React, { useEffect } from "react";
+import { Suspense, lazy } from 'react';
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Works from "./components/Works";
-import Services from "./components/Services";
-import Resume from "./components/Resume";
-import Blog from "./components/Blog";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Services from "./components/Services";
+// import Resume from "./components/Resume";
+// import Blog from "./components/Blog";
+// import Contact from "./components/Contact";
+// import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
-
 import "./styles/global.css";
+const Services = lazy(() => import("./components/Services"));
+const Resume = lazy(() => import("./components/Resume"));
+const Blog = lazy(() => import("./components/Blog"));
+const Contact = lazy(() => import("./components/Contact"));
+const Footer = lazy(() => import("./components/Footer"));
+
+
 
 const App = () => {
   useEffect(() => {
@@ -37,7 +44,7 @@ const App = () => {
 
   return (
     <div id="body" data-spy="scroll" data-target=".nav" data-offset="300">
-      <Preloader />
+      <Suspense fallback={<Preloader />}>
       <div className="template-wrapper">
         <Header />
         <Hero />
@@ -49,6 +56,7 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
+      </Suspense>
     </div>
   );
 };

@@ -92,7 +92,7 @@ const Resume = () => (
                 <h5>University of Guelph</h5>
                 <h6>Computing in Computer Science</h6>
                 <div className="company">
-                  <i className="fa fa-map-marker fa-fw"></i> Guelph, ON
+                  <i className="fa fa-university fa-fw"></i> CCMPS Department
                 </div>
                 <div className="single-post-text">
                   <p>- Relevant Coursework: System Modeling and Simulation, Database Management, Software Engineering, NLP, and Computer Vision.</p>
@@ -131,12 +131,12 @@ const Resume = () => (
                 <h5>University of Toronto</h5>
                 <h6>Applied Mathematics</h6>
                 <div className="company">
-                  <i className="fa fa-map-marker fa-fw"></i> Canada
+                  <i className="fa fa-university fa-fw"></i> MCS Department
                 </div>
                 <div className="single-post-text">
                   <p>- Relevant Coursework: Probability Theory, Statistical Inference, Regression Analysis, Time Series Analysis, Financial Mathematics, Advanced Calculus, and Linear Algebra.</p>
                   <p>- A+ in Calculus and Linear Algebra for Commerce and Mathematics of Finance for Non-Actuaries.</p>
-                  <p>Key Projects: Nutrition Intervention Monitoring Surveys (SAS Macro), and Comparative Analysis of Organic vs. Non-Organic Vegetables (R).</p>
+                  <p>Key Projects: Nutrition Intervention Monitoring Surveys (using SAS Macro), and Comparative Analysis of Organic vs. Non-Organic Vegetables using R programming lanaguage.</p>
                 </div>
               </div>
             </div>
