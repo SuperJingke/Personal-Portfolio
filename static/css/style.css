@@ -319,7 +319,7 @@ section {
 }
 
 .header-area .main-nav {
-    box-shadow: 0px 0px 20px rgba(3, 66, 154, 0.221);
+    box-shadow: 0px 0px 12px rgba(3, 66, 154, 0.172);
     border-radius: 40px;
     min-height: 80px;
     background: #fff;
