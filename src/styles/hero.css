@@ -66,6 +66,7 @@
     text-align: center;
 }
 
+
 @media screen and (max-width: 514px) {
   .animated-info {
   display: inline-block;

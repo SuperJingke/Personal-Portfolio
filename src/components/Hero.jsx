@@ -3,7 +3,6 @@ import "../styles/hero.css";
 
 const Hero = () => (
   <section className="hero-area d-flex align-items-center" id="home">
-    <div id="particles-js"></div>
     <div className="container">
       <div className="row align-items-center justify-content-between">
         <div className="col-lg-5 d-none d-lg-block">

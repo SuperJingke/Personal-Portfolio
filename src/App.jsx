@@ -32,7 +32,6 @@ const App = () => {
       "/static/js/app.js",
       "/static/js/owl.carousel.min.js",
       "/static/js/main.js",
-      "/static/js/form.js",
     ];
     scriptUrls.forEach((src) => {
       const script = document.createElement("script");
