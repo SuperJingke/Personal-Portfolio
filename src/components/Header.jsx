@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/global.css";
 
 const Header = () => {
+  const [menuActive, setMenuActive] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuActive(!menuActive);
+  };
+
+  const closeMenu = () => {
+    setMenuActive(false);
+  };
+
   return (
     <header className="header-area header-sticky">
       <div className="container">
@@ -11,16 +21,24 @@ const Header = () => {
               <a href="#body" className="logo">
                 Jingke L<span>.</span>
               </a>
-              <ul className="nav">
-                <li><a href="#body" className="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#works">Gallery</a></li>
-                <li><a href="#services">Information</a></li>
-                <li><a href="#resume">Resume</a></li>
-                <li><a href="#demo">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+
+              {/* Navigation menu */}
+              <ul className={`nav ${menuActive ? "active" : ""}`}>
+                <li><a href="#body" className="active" onClick={closeMenu}>Home</a></li>
+                <li><a href="#about" onClick={closeMenu}>About</a></li>
+                <li><a href="#works" onClick={closeMenu}>Gallery</a></li>
+                <li><a href="#services" onClick={closeMenu}>Information</a></li>
+                <li><a href="#resume" onClick={closeMenu}>Resume</a></li>
+                <li><a href="#demo" onClick={closeMenu}>Projects</a></li>
+                <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
               </ul>
-              <button className="menu-trigger" aria-label="Open menu">
+
+              {/* Toggle button */}
+              <button
+                className={`menu-trigger ${menuActive ? "active" : ""}`}
+                aria-label="Toggle menu"
+                onClick={toggleMenu}
+              >
                 <span>Menu</span>
               </button>
             </nav>

@@ -55,3 +55,45 @@ a {
   background: #111;
   margin: 0 auto;
 }
+@media (max-width: 991px) {
+  .header-area .main-nav .menu-trigger {
+    display: block;
+  }
+  .menu-trigger {
+    border: none;
+    background-color: transparent;
+  }
+
+  .header-area .main-nav .nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    left: 0;
+    background: #fff;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    z-index: 999;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .header-area .main-nav .nav.active {
+    display: flex;
+    
+  }
+
+  .header-area .main-nav .nav li {
+    padding: 12px 0;
+    border: none;
+  }
+
+  .header-area .main-nav .nav li a {
+    color: #000; /* white text for contrast */
+  }
+
+  .header-area .main-nav .nav li a:hover {
+    color: #a3c9ff; /* soft blue hover effect */
+  }
+}
+
