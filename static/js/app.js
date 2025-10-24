@@ -1,3 +1,8 @@
+const container = document.getElementById("particles-js");
+if (container) {
+  window.particlesJS("particles-js", config);
+}
+
 particlesJS('particles-js', 
 {
   "particles": {
